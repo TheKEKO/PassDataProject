@@ -49,6 +49,7 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMc-Yj-uDw"/>
                                     <segue destination="T2C-Fq-mIH" kind="show" id="Ffr-Ji-88b"/>
                                 </connections>
                             </button>
@@ -65,6 +66,10 @@
                             <constraint firstItem="kdg-VU-dBk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sQf-vb-IcL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LoginTF" destination="pcY-nU-HFW" id="1Og-55-Qqk"/>
+                        <outlet property="PasswordTF" destination="e3o-QQ-29l" id="lvk-Pg-fms"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1u-AK-Q58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="762.39999999999998" y="55.322338830584712"/>
+            <point key="canvasLocation" x="783" y="55"/>
         </scene>
     </scenes>
     <resources>
