@@ -67,8 +67,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="LoginTF" destination="pcY-nU-HFW" id="1Og-55-Qqk"/>
-                        <outlet property="PasswordTF" destination="e3o-QQ-29l" id="lvk-Pg-fms"/>
+                        <outlet property="loginTF" destination="pcY-nU-HFW" id="1Og-55-Qqk"/>
+                        <outlet property="passwordTF" destination="e3o-QQ-29l" id="lvk-Pg-fms"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
