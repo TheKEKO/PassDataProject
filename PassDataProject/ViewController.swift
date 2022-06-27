@@ -8,8 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var LoginTF: UITextField!
-    @IBOutlet weak var PasswordTF: UITextField!
+    @IBOutlet weak var loginTF: UITextField!
+    @IBOutlet weak var passwordTF: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,5 @@ class ViewController: UIViewController {
 
     @IBAction func loginTapped(_ sender: UIButton) {
     }
-    
 }
 
