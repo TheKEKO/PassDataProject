@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="28.125" y="55.985915492957744"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="617-vn-HSQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="T2C-Fq-mIH" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="T2C-Fq-mIH" customClass="SecondViewController" customModule="PassDataProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="GlC-Wc-LzE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +104,9 @@
                                 <state key="normal" title="Go back">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="goBackTapped:" destination="T2C-Fq-mIH" eventType="touchUpInside" id="uVR-tZ-9b2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dbv-YX-9Cv"/>
@@ -116,6 +119,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Tsh-6E-EnY"/>
+                    <connections>
+                        <outlet property="label" destination="Gcx-YI-bxb" id="7ZG-x3-HR7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1u-AK-Q58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
