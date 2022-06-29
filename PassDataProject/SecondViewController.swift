@@ -8,6 +8,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+   
     @IBOutlet weak var label: UILabel!
     
     var login: String?
